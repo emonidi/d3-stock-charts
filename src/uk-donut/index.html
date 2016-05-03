@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <div class="navbar navbar-inverse"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <label for="country-input">Country:</label>
+                            <div class="dropdown">
+                                <input type="text" id="country-input"/>
+                                <ul class="country-ul"></ul>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="age-select">
+                                Select Age:
+                            </label>
+                            <select id="age-select"></select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-10 text-center">
+                    <div class="chart"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                    <div class="world"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/vendor/d3.js"></script>
+    <script srr="js/topojson.min.js"></script>
+    <script src="js/data-getter.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>

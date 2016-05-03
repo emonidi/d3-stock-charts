@@ -1,0 +1,27 @@
+.dropdown{
+    width:100%;
+    z-index: 1;
+
+}
+.dropdown input{
+    width: 100%;
+}
+
+.dropdown input:focus{
+    outline:none;
+}
+
+.dropdown ul{
+    width: 100%;
+    list-style: none;
+    position: absolute;
+    padding-left: 5px;
+    border:solid 1px;
+    border-color: rgb(238, 238, 238);
+    border-top:none;
+    background: #fff;
+}
+
+.dropdown ul li{
+    padding-top:5px;
+}
